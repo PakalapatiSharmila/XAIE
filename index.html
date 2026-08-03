@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XAIE | Launching Soon</title>
+    
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Elegant Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Outfit:wght@300;400;500;600&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+    
+    <!-- Tailwind CSS (via CDN) -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: '#163A72',
+                        darkNavy: '#0A1526',
+                        cyan: '#15C8E8',
+                        pink: '#F03F95',
+                        gold: '#F7B731',
+                        purple: '#7E57FF',
+                    },
+                    fontFamily: {
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        display: ['"Playfair Display"', 'serif'],
+                        sans: ['"Outfit"', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#F8FAFC] overflow-x-hidden text-navy font-sans antialiased">
+    
+    <!-- Animated Light Background Effects -->
+    <div id="background-effects">
+        <div class="mesh-blob bg-cyan/15 top-[-10%] left-[-10%] w-[50vw] h-[50vw] blur-[120px] delay-0"></div>
+        <div class="mesh-blob bg-pink/10 bottom-[-15%] right-[-10%] w-[60vw] h-[60vw] blur-[130px] delay-2"></div>
+        <div class="mesh-blob bg-purple/10 top-[20%] right-[10%] w-[40vw] h-[40vw] blur-[100px] delay-4"></div>
+        <div class="mesh-blob bg-gold/10 bottom-[20%] left-[10%] w-[35vw] h-[35vw] blur-[110px] delay-1"></div>
+        
+        <div class="star top-[25%] left-[25%] delay-0"></div>
+        <div class="star top-[35%] right-[28%] delay-1"></div>
+        <div class="star bottom-[30%] left-[30%] delay-2"></div>
+        <div class="star bottom-[20%] right-[22%] delay-1-5"></div>
+        <div class="particles-layer"></div>
+    </div>
+
+    <!-- HERO SECTION -->
+    <section id="parallax-container" class="relative z-10 w-full min-h-screen flex flex-col items-center justify-center px-4 sm:px-6 pt-12 pb-8 text-center">
+        <!-- Globe Logo & Orbital Rings -->
+       <!-- Globe Logo & Orbital Rings -->
+        <div class="relative flex items-center justify-center w-56 h-56 sm:w-64 sm:h-64 md:w-80 md:h-80 mb-8 mt-12">
+            <div class="glow-behind"></div>
+            <img src="https://chatgpt.com/backend-api/estuary/public_content/enc/eyJpZCI6Im1fNmE3MDMzMTBmNTA4ODE5MTliNGExODQzNjVkZmUyNTA6ZmlsZV8wMDAwMDAwMDI1YzQ4MWY4Yjc1ZTUwYTNjODdkMWE2YiIsImdpem1vX2lkIjpudWxsLCJ3aWQiOm51bGwsIm9pZCI6bnVsbCwidHMiOiIyMDY2OCIsInAiOiJweWkiLCJjaWQiOiIxIiwic2lnIjoiYWM0NmU2ZjYxZmYyZDc3ZTFmOGRlN2M5YWJlMGQ2NjRlODRkOWYwZTBiM2QwOWU3OTQyMzI3NDRlMzQ0YjA2MyIsInYiOiIwIiwiY3MiOm51bGwsImNkbiI6bnVsbCwiZm4iOm51bGwsImNkIjpudWxsLCJjcCI6bnVsbCwibWEiOm51bGx9" alt="XAIE Globe" class="globe-logo relative z-10 w-40 h-40 sm:w-48 sm:h-48 md:w-64 md:h-64 rounded-full object-cover">
+        </div>
+
+        <h1 class="brand-name text-4xl sm:text-5xl md:text-7xl font-serif font-bold tracking-[0.15em] mb-4">XAIE</h1>
+
+        <div class="tagline text-[10px] sm:text-xs md:text-sm font-medium tracking-[0.15em] sm:tracking-[0.2em] uppercase mb-8 flex flex-col md:flex-row gap-1 md:gap-2">
+            <span>Connecting Brands.</span>
+            <span class="text-cyan">Connecting Manufacturers.</span>
+        </div>
+
+        <h2 id="launching-text" class="text-3xl sm:text-4xl md:text-6xl font-display font-semibold tracking-wider mb-6 flex flex-wrap justify-center overflow-hidden">
+            LAUNCHING SOON
+        </h2>
+
+        <p class="description text-navy/80 text-sm sm:text-base md:text-lg font-light mb-12 tracking-wide max-w-md px-4">
+            We're building something exceptional for the future.
+        </p>
+
+        <div class="animated-divider w-24 sm:w-32 h-[2px] rounded-full mb-8 bg-gradient-to-r from-transparent via-gold to-transparent"></div>
+
+    <!-- CONTINUATION CONTENT -->
+    <div class="relative z-20 w-full pb-16 md:pb-20">
+        
+        <!-- 1. Stats Bar (2x2 Grid on Mobile, 4x1 on Laptop) -->
+        <section class="w-full max-w-6xl mx-auto px-4 sm:px-6 py-8 md:py-12 relative z-10 fade-in-up">
+            <div class="bg-white/80 backdrop-blur-md rounded-3xl p-6 sm:p-8 md:p-10 shadow-[0_8px_40px_rgb(0,0,0,0.04)] border border-gray-100 grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+                <div class="flex flex-col items-center text-center gap-2">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-cyan mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"></circle><path d="M2 12h20M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                    <h4 class="text-xl md:text-2xl font-bold text-navy">100+</h4>
+                    <p class="text-[10px] md:text-xs text-navy/60 font-medium uppercase tracking-wider">Global Brands</p>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-pink mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                    <h4 class="text-xl md:text-2xl font-bold text-navy">300+</h4>
+                    <p class="text-[10px] md:text-xs text-navy/60 font-medium uppercase tracking-wider">Manufacturers</p>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-gold mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                    <h4 class="text-xl md:text-2xl font-bold text-navy">15+</h4>
+                    <p class="text-[10px] md:text-xs text-navy/60 font-medium uppercase tracking-wider">Countries</p>
+                </div>
+                <div class="flex flex-col items-center text-center gap-2">
+                    <svg class="w-6 h-6 md:w-8 md:h-8 text-purple mb-1" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                    <h4 class="text-xl md:text-2xl font-bold text-navy">1M+</h4>
+                    <p class="text-[10px] md:text-xs text-navy/60 font-medium uppercase tracking-wider">Products Delivered</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. Features Grid (1 Col Mobile -> 2 Col Tab -> 3 Col Laptop -> 6 Col Desktop) -->
+        <section class="w-full max-w-6xl mx-auto px-4 sm:px-6 py-10 md:py-16 text-center fade-in-up">
+            <h2 class="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-navy mb-4">Everything You Need in One Platform</h2>
+            <p class="text-navy/70 mb-10 md:mb-12 max-w-2xl mx-auto text-sm md:text-base px-4">From concept to global impact – we make fashion manufacturing seamless, smarter & faster.</p>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-4 sm:gap-6">
+                <!-- Feature Cards -->
+                <div class="bg-white/90 border border-gray-100 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center">
+                    <svg class="w-8 h-8 md:w-10 md:h-10 text-cyan mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                    <h4 class="text-sm font-bold text-navy mb-2">AI Tech Pack</h4>
+                    <p class="text-[11px] leading-tight text-navy/60">Generate accurate tech packs instantly with AI assistance.</p>
+                </div>
+                <div class="bg-white/90 border border-gray-100 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center">
+                    <svg class="w-8 h-8 md:w-10 md:h-10 text-pink mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><circle cx="10" cy="13" r="2"></circle><line x1="14" y1="13" x2="16" y2="13"></line><line x1="10" y1="17" x2="16" y2="17"></line></svg>
+                    <h4 class="text-sm font-bold text-navy mb-2">Find Suppliers</h4>
+                    <p class="text-[11px] leading-tight text-navy/60">Connect with verified manufacturers worldwide.</p>
+                </div>
+                <div class="bg-white/90 border border-gray-100 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center">
+                    <svg class="w-8 h-8 md:w-10 md:h-10 text-gold mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="12" cy="8" r="7"></circle><polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline></svg>
+                    <h4 class="text-sm font-bold text-navy mb-2">Product Development</h4>
+                    <p class="text-[11px] leading-tight text-navy/60">Bring your ideas to life with expert product development.</p>
+                </div>
+                <div class="bg-white/90 border border-gray-100 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center">
+                    <svg class="w-8 h-8 md:w-10 md:h-10 text-cyan mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect><line x1="8" y1="21" x2="16" y2="21"></line><line x1="12" y1="17" x2="12" y2="21"></line></svg>
+                    <h4 class="text-sm font-bold text-navy mb-2">Track Orders</h4>
+                    <p class="text-[11px] leading-tight text-navy/60">Real-time tracking from production to delivery.</p>
+                </div>
+                <div class="bg-white/90 border border-gray-100 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center">
+                    <svg class="w-8 h-8 md:w-10 md:h-10 text-pink mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"></circle><circle cx="6" cy="18" r="3"></circle><line x1="20" y1="4" x2="8.12" y2="15.88"></line><line x1="14.47" y1="14.48" x2="20" y2="20"></line><line x1="8.12" y1="8.12" x2="12" y2="12"></line></svg>
+                    <h4 class="text-sm font-bold text-navy mb-2">Sampling</h4>
+                    <p class="text-[11px] leading-tight text-navy/60">Streamlined sampling process for perfect results.</p>
+                </div>
+                <div class="bg-white/90 border border-gray-100 p-6 rounded-2xl shadow-sm hover:shadow-lg transition-all duration-300 flex flex-col items-center text-center">
+                    <svg class="w-8 h-8 md:w-10 md:h-10 text-purple mb-4" fill="none" stroke="currentColor" stroke-width="1.5" viewBox="0 0 24 24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                    <h4 class="text-sm font-bold text-navy mb-2">AI Assistant</h4>
+                    <p class="text-[11px] leading-tight text-navy/60">Smart AI support for all your manufacturing queries.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. Platform Showcase (Stacked on Mobile, Side-by-Side on Desktop) -->
+        <section class="w-full max-w-6xl mx-auto px-4 sm:px-6 py-12 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+            <div class="text-center lg:text-left">
+                <h2 class="text-2xl sm:text-3xl md:text-4xl font-serif font-bold text-navy mb-4 md:mb-6 leading-tight">Your Global Fashion Manufacturing Partner</h2>
+                <p class="text-navy/70 mb-6 md:mb-8 text-sm md:text-base leading-relaxed max-w-md mx-auto lg:mx-0">XAIE transforms the way we design, source and manufacture. Our AI Tech Pack feature is changing the game.</p>
+                
+                <!-- Checkmarks list -->
+                <ul class="space-y-3 sm:space-y-4 inline-block text-left">
+                    <li class="flex items-center gap-3 text-sm font-medium text-navy">
+                        <svg class="w-5 h-5 text-cyan flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        AI-Powered Solutions
+                    </li>
+                    <li class="flex items-center gap-3 text-sm font-medium text-navy">
+                        <svg class="w-5 h-5 text-cyan flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        Trusted Global Network
+                    </li>
+                    <li class="flex items-center gap-3 text-sm font-medium text-navy">
+                        <svg class="w-5 h-5 text-cyan flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        End-to-End Manufacturing
+                    </li>
+                    <li class="flex items-center gap-3 text-sm font-medium text-navy">
+                        <svg class="w-5 h-5 text-cyan flex-shrink-0" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"></path></svg>
+                        Quality You Can Trust
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Stylized Mockup Graphic (Percentage Based for Responsiveness) -->
+            <div class="relative w-full max-w-lg mx-auto lg:max-w-none aspect-[4/3] bg-white rounded-[1.5rem] md:rounded-[2rem] border border-gray-100 shadow-[0_20px_50px_rgba(0,0,0,0.08)] flex items-center justify-center overflow-hidden group">
+                <div class="absolute inset-0 bg-gradient-to-tr from-gray-50 to-gray-100"></div>
+                
+                <!-- Main App Window -->
+                <div class="absolute top-[10%] left-[5%] right-[15%] md:right-[20%] bottom-[10%] bg-white shadow-sm border border-gray-100 rounded-lg md:rounded-xl flex flex-col p-3 md:p-4">
+                    <div class="w-full h-[15%] bg-gray-50 rounded mb-4"></div>
+                    <div class="w-[30%] h-[5%] bg-gray-100 rounded mb-4"></div>
+                    <div class="grid grid-cols-3 gap-2 mb-4 h-[30%]">
+                         <div class="w-full h-full bg-cyan/10 rounded-md md:rounded-lg"></div>
+                         <div class="w-full h-full bg-pink/10 rounded-md md:rounded-lg"></div>
+                         <div class="w-full h-full bg-gold/10 rounded-md md:rounded-lg"></div>
+                    </div>
+                </div>
+
+                <!-- Mobile App Overlay -->
+                <div class="absolute bottom-[5%] right-[5%] w-[25%] md:w-[22%] h-[60%] bg-white border border-gray-200 shadow-2xl rounded-xl md:rounded-2xl flex flex-col p-2">
+                     <div class="w-full h-[5%] bg-gray-100 rounded mb-2"></div>
+                     <div class="flex-1 bg-gradient-to-b from-gray-50 to-white rounded-md md:rounded-lg"></div>
+                </div>
+                <p class="relative z-10 text-gray-400 text-xs md:text-sm font-medium tracking-wide">Dashboard Preview</p>
+            </div>
+        </section>
+
+        <!-- Stay Tuned Card -->
+        <div class="stay-tuned-card w-full max-w-4xl mx-auto bg-white/70 backdrop-blur-xl border border-white/60 shadow-[0_8px_30px_rgb(0,0,0,0.06)] rounded-[1.5rem] p-5 sm:p-6 md:p-8 flex flex-col lg:flex-row items-center justify-between gap-6 md:gap-8 z-20">
+            <div class="flex flex-col sm:flex-row items-center sm:items-start gap-4 text-center sm:text-left w-full lg:w-auto">
+                <div class="flex-shrink-0">
+                    <svg class="w-10 h-10 sm:w-12 sm:h-12" viewBox="0 0 24 24" fill="none" stroke="url(#bell-gradient)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                        <defs>
+                            <linearGradient id="bell-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" stop-color="#15C8E8" />
+                                <stop offset="100%" stop-color="#F03F95" />
+                            </linearGradient>
+                        </defs>
+                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                    </svg>
+                </div>
+                <div>
+                    <h3 class="text-lg sm:text-xl md:text-2xl font-serif font-bold text-navy tracking-[0.2em] uppercase mb-2">Stay Tuned!</h3>
+                    <p class="text-xs sm:text-sm text-navy/70 leading-relaxed font-sans max-w-sm mx-auto sm:mx-0">
+                        Something great is on the way.<br>
+                        Get ready to experience seamless connections and endless possibilities.
+                    </p>
+                </div>
+            </div>
+            <div class="w-full lg:w-auto flex flex-col sm:flex-row lg:flex-col gap-3 min-w-[100%] sm:min-w-0 lg:min-w-[300px]">
+              <!-- Form Inputs 
+            <form action="PASTE_YOUR_BREVO_LINK_HERE" method="POST" class="w-full lg:w-auto flex flex-col sm:flex-row lg:flex-col gap-3 min-w-[100%] sm:min-w-0 lg:min-w-[300px]">
+                
+                <!-- Notice name="EMAIL" is now uppercase! -->
+                <input 
+                    type="email" 
+                    name="EMAIL" 
+                    required
+                    placeholder="Enter your email address" 
+                    class="w-full px-5 py-3.5 text-sm bg-white/90 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-cyan/50 text-navy placeholder-gray-400 shadow-sm transition-all"
+                >
+                
+                <button type="submit" class="w-full sm:w-auto lg:w-full px-6 py-3.5 text-sm font-semibold text-white uppercase tracking-wider rounded-xl lg:rounded-full bg-gradient-to-r from-cyan to-pink hover:opacity-90 hover:shadow-lg transition-all duration-300 whitespace-nowrap">
+                    Notify Me
+                </button>
+                
+            <!--</form>-->
+            </div>
+        </div>
+    </section>
+
+    </div>
+
+    <!-- 4. Footer Section -->
+    <footer class="relative z-30 bg-darkNavy text-white pt-12 md:pt-16 border-t border-white/10 w-full">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-10 mb-12">
+            
+            <!-- Brand Column -->
+            <div class="sm:col-span-2 lg:col-span-2">
+                <h2 class="text-2xl md:text-3xl font-serif font-bold tracking-widest text-white mb-4">XAIE</h2>
+                <p class="text-xs md:text-sm text-gray-400 mb-6 leading-relaxed max-w-xs">
+                    Connecting Brands.<br>
+                    Connecting Manufacturers.<br>
+                    Building Global Connections.
+                </p>
+                <!-- Social Icons -->
+                <div class="flex gap-4">
+                    <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-cyan/80 transition-colors"><svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg></a>
+                    <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-pink/80 transition-colors"><svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg></a>
+                    <a href="#" class="w-8 h-8 rounded-full bg-white/10 flex items-center justify-center hover:bg-gold/80 transition-colors"><svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/></svg></a>
+                </div>
+            </div>
+
+            <!-- Platform Links -->
+            <div>
+                <h4 class="text-xs md:text-sm font-semibold text-white mb-3 md:mb-4 uppercase tracking-wider">Platform</h4>
+                <ul class="space-y-2 md:space-y-3 text-xs md:text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-cyan transition-colors">Features</a></li>
+                    <li><a href="#" class="hover:text-cyan transition-colors">Solutions</a></li>
+                    <li><a href="#" class="hover:text-cyan transition-colors">How It Works</a></li>
+                    <li><a href="#" class="hover:text-cyan transition-colors">Integrations</a></li>
+                </ul>
+            </div>
+
+            <!-- Company Links -->
+            <div>
+                <h4 class="text-xs md:text-sm font-semibold text-white mb-3 md:mb-4 uppercase tracking-wider">Company</h4>
+                <ul class="space-y-2 md:space-y-3 text-xs md:text-sm text-gray-400">
+                    <li><a href="#" class="hover:text-pink transition-colors">About Us</a></li>
+                    <li><a href="#" class="hover:text-pink transition-colors">Careers</a></li>
+                    <li><a href="#" class="hover:text-pink transition-colors">Blog</a></li>
+                    <li><a href="#" class="hover:text-pink transition-colors">Press</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div>
+                <h4 class="text-xs md:text-sm font-semibold text-white mb-3 md:mb-4 uppercase tracking-wider">Contact Us</h4>
+                <ul class="space-y-2 md:space-y-3 text-xs md:text-sm text-gray-400">
+                    <li class="flex items-center gap-2"><svg class="w-4 h-4 text-cyan" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg> xavierapparels@gmail.com</li>
+                    <li class="flex items-center gap-2"><svg class="w-4 h-4 text-pink" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path></svg> +91 9704082666</li>
+                    <li class="flex items-start gap-3 mt-4 text-gray-400">
+    <!-- Increased to w-6 h-6 and added flex-shrink-0 -->
+    <svg class="w-4 h-4 text-gold flex-shrink-0 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+    </svg>
+    
+    <!-- Your Address -->
+    <span class="leading-relaxed">
+        Banjara Hills Road No. 12<br>
+        MLA Colony, Banjara Hills<br>
+        Hyderabad, Telangana
+    </span>
+</li>
+ </ul>
+            </div>
+        </div>
+        
+        <!-- Copyright Bottom -->
+        <div class="border-t border-white/10 py-6 text-center md:flex md:justify-between max-w-6xl mx-auto px-6 text-xs text-gray-500">
+            <p>&copy; 2026 XAIE. All rights reserved.</p>
+            <div class="space-x-4 mt-2 md:mt-0 flex justify-center">
+                <a href="#" class="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" class="hover:text-white transition-colors">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
